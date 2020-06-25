@@ -21,7 +21,7 @@ def disable_logo(plot, element):
     plot.state.toolbar.logo = None
 hv.plotting.bokeh.ElementPlot.finalize_hooks.append(disable_logo)
 
-from main import fetch
+#from main import fetch
 '''
 query = ("""SELECT * FROM cg_sessions.session_event ORDER BY id""") 
 bigquery = fetch.import_data(query)
